@@ -17,32 +17,40 @@ st.markdown("""
 """)
 st.divider()
 
-# Создаем кнопки
+# CSS стили для растянутых кнопок
 st.markdown("""
 <style>
-    /* Центрируем содержимое всех колонок */
-    [data-testid="column"] {
-        align-items: center;
+    /* Стиль для контейнера с кнопкой и фото */
+    .dorm-container {
+        width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     
-    /* Убираем лишние отступы */
-    .stImage {
-        padding-top: 0 !important;
-        margin-top: 0 !important;
-    }
-    
-    /* Стиль для кнопок */
-    .dorm-button {
+    /* Стиль для растянутых кнопок */
+    .wide-button {
         color: white; 
         background-color: #26B28C; 
         border: none; 
-        padding: 10px 20px; 
+        padding: 10px 0;  /* Уменьшили боковые отступы */
         border-radius: 5px;
         font-weight: bold;
         cursor: pointer;
         margin-bottom: 10px;
+        width: 100%;  /* Растягиваем на всю ширину */
+        text-align: center;
+    }
+    
+    /* Для фиолетовых кнопок */
+    .wide-button-purple {
+        background-color: #5C21C7 !important; 
+    }
+    
+    /* Убираем лишние отступы у изображений */
+    .stImage {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -52,43 +60,51 @@ col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
 
 with col1:
     components.html("""
-    <a href="https://chkalovski27.streamlit.app/" target="_blank">
-        <button class="dorm-button">
-            Общежитие №2
-        </button>
-    </a>
+    <div class="dorm-container">
+        <a href="https://chkalovski27.streamlit.app/" target="_blank" style="width: 100%">
+            <button class="wide-button">
+                Общежитие №2
+            </button>
+        </a>
+    </div>
     """, height=50)
-    st.image("здание_общежития_ч27.jpg")
+    st.image("здание_общежития_ч27.jpg", use_container_width=True)
 
 with col2:
     components.html("""
-    <a href="https://kosigina19k2.streamlit.app/" target="_blank">
-        <button class="dorm-button">
-            Общежитие №3
-        </button>
-    </a>
+    <div class="dorm-container">
+        <a href="https://kosigina19k2.streamlit.app/" target="_blank" style="width: 100%">
+            <button class="wide-button">
+                Общежитие №3
+            </button>
+        </a>
+    </div>
     """, height=50)
-    st.image("здание общежития.jpg")
+    st.image("здание_общежития.jpg", use_container_width=True)
 
 with col3:
     components.html("""
-    <a href="https://voronezhskaya69.streamlit.app/" target="_blank">
-        <button class="dorm-button">
-            Общежитие №4
-        </button>
-    </a>
+    <div class="dorm-container">
+        <a href="https://voronezhskaya69.streamlit.app/" target="_blank" style="width: 100%">
+            <button class="wide-button wide-button-purple">
+                Общежитие №4
+            </button>
+        </a>
+    </div>
     """, height=50)
-    st.image("здание_общежития_в69.jpg")
+    st.image("здание_общежития_в69.jpg", use_container_width=True)
 
 with col4:
     components.html("""
-    <a href="https://voronezhskaya38.streamlit.app/" target="_blank">
-        <button class="dorm-button">
-            Общежитие №7
-        </button>
-    </a>
+    <div class="dorm-container">
+        <a href="https://voronezhskaya38.streamlit.app/" target="_blank" style="width: 100%">
+            <button class="wide-button wide-button-purple">
+                Общежитие №7
+            </button>
+        </a>
+    </div>
     """, height=50)
-    st.image("здание_общежития_в38.jpg")
+    st.image("здание_общежития_в38.jpg", use_container_width=True)
 st.divider()
 
 st.subheader("❓ Часто задаваемые вопросы: заселение в общежитие")
