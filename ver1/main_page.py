@@ -58,7 +58,7 @@ with col1:
         </button>
     </a>
     """, height=50)
-    st.image("здание_общежития_ч27.jpg", use_column_width=True)
+    st.image("здание_общежития_ч27.jpg")
 
 with col2:
     components.html("""
@@ -68,7 +68,7 @@ with col2:
         </button>
     </a>
     """, height=50)
-    st.image("здание общежития.jpg", use_column_width=True)
+    st.image("здание общежития.jpg")
 
 with col3:
     components.html("""
@@ -78,7 +78,7 @@ with col3:
         </button>
     </a>
     """, height=50)
-    st.image("здание_общежития_в69.jpg", use_column_width=True)
+    st.image("здание_общежития_в69.jpg")
 
 with col4:
     components.html("""
@@ -88,7 +88,7 @@ with col4:
         </button>
     </a>
     """, height=50)
-    st.image("здание_общежития_в38.jpg", use_column_width=True)
+    st.image("здание_общежития_в38.jpg")
 st.divider()
 
 st.subheader("❓ Часто задаваемые вопросы: заселение в общежитие")
