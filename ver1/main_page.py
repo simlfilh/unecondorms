@@ -80,7 +80,7 @@ with col2:
         </a>
     </div>
     """, height=50)
-    st.image("здание_общежития.jpg", use_container_width=True)
+    st.image("здание общежития.jpg", use_container_width=True)
 
 with col3:
     components.html("""
