@@ -30,7 +30,7 @@ with col1:
                 Общежитие №2
             </button>
         </a>
-    """, width=300)
+    """)
 
 with col2:
     components.html("""
@@ -45,7 +45,7 @@ with col2:
                 Общежитие №3
             </button>
         </a>
-    """, height=50)
+    """)
 
 with col3:
     components.html("""
@@ -60,7 +60,7 @@ with col3:
                 Общежитие №4
             </button>
         </a>
-    """, height=50)
+    """)
 
 with col4:
     components.html("""
@@ -75,7 +75,7 @@ with col4:
                 Общежитие №7
             </button>
         </a>
-    """, height=50)
+    """)
 
 col5, col6, col7, col8 = st.columns([1, 1, 1, 1])
 with col5:
