@@ -30,7 +30,7 @@ with col1:
                 Общежитие №2
             </button>
         </a>
-    """, width=100)
+    """, width=300)
 
 with col2:
     components.html("""
