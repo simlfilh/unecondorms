@@ -15,10 +15,11 @@ st.markdown("""
     Здесь вы найдете актуальную информацию о каждом общежитии, правила проживания и контакты администрации.
 """)
 
+# Создаем кнопки
 col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
 with col1:
     components.html("""
-        <a href="https://chkalovski27.streamlit.app/">
+        <a href="https://chkalovski27.streamlit.app/" target="_blank">
             <button style="color: white; 
                           background-color: #26B28C; 
                           border: none; 
@@ -29,10 +30,11 @@ with col1:
                 Общежитие №2
             </button>
         </a>
-    """)
+    """, height=50)
+
 with col2:
     components.html("""
-        <a href="https://kosigina19k2.streamlit.app/">
+        <a href="https://kosigina19k2.streamlit.app/" target="_blank">
             <button style="color: white; 
                           background-color: #26B28C; 
                           border: none; 
@@ -43,35 +45,37 @@ with col2:
                 Общежитие №3
             </button>
         </a>
-    """)
+    """, height=50)
+
 with col3:
     components.html("""
-        <a href="https://voronezhskaya69.streamlit.app/">
+        <a href="https://voronezhskaya69.streamlit.app/" target="_blank">
+            <button style="color: white; 
+                      background-color: #5C21C7;  
+                      border: none; 
+                      padding: 10px 20px; 
+                      border-radius: 5px;
+                      font-weight: bold;
+                      cursor: pointer;">
+                Общежитие №4
+            </button>
+        </a>
+    """, height=50)
+
+with col4:
+    components.html("""
+        <a href="https://voronezhskaya38.streamlit.app/" target="_blank">
             <button style="color: white; 
                           background-color: #5C21C7;  
                           border: none; 
                           padding: 10px 20px; 
                           border-radius: 5px;
                           font-weight: bold;
-                          cursor: pointer;
-                Общежитие №4
+                          cursor: pointer;">
+                Общежитие №7
             </button>
         </a>
-    """)
-with col4:
-    components.html("""
-            <a href="https://voronezhskaya38.streamlit.app/">
-                <button style="color: white; 
-                              background-color: #5C21C7;  
-                              border: none; 
-                              padding: 10px 20px; 
-                              border-radius: 5px;
-                              font-weight: bold;
-                              cursor: pointer;
-                    Общежитие №7
-                </button>
-            </a>
-        """)
+    """, height=50)
 
 col5, col6, col7, col8 = st.columns([1, 1, 1, 1])
 with col5:
@@ -147,14 +151,15 @@ st.divider()
 
 st.subheader("Контакты для связи")
 st.markdown("""
-    **Отдел по работе с общежитиями:**  
-    📍 Адрес: наб. канала Грибоедова, д. 30-32, лестница № 4 
-    📞 Справки по телефону: <a href="tel:+78124589730,4291,4294">(812) 458-97-30, доб. 4291, 4294</a>
-    📩 <a href="mailto:dom@unecon.ru">dom@unecon.ru</a>
-    Часы приема
-    ПН: 14:00 — 16:30
-    ВТ: 14:00 — 16:30
-    СР: приема нет
-    ЧТ: 14:00 — 16:30
-    ПТ: 13:00 — 15:00
-""")
+**Отдел по работе с общежитиями:**  
+📍 Адрес: наб. канала Грибоедова, д. 30-32, лестница № 4  
+📞 Справки по телефону: [+7 (812) 458-97-30, доб. 4291, 4294](tel:+78124589730,4291,4294)  
+📩 [dom@unecon.ru](mailto:dom@unecon.ru)  
+
+**Часы приема:**  
+ПН: 14:00 — 16:30  
+ВТ: 14:00 — 16:30  
+СР: приема нет  
+ЧТ: 14:00 — 16:30  
+ПТ: 13:00 — 15:00  
+""", unsafe_allow_html=True)
