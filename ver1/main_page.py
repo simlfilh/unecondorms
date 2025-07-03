@@ -31,6 +31,7 @@ with col1:
             </button>
         </a>
     """)
+    st.image("здание_общежития_ч27.jpg")
 
 with col2:
     components.html("""
@@ -46,6 +47,7 @@ with col2:
             </button>
         </a>
     """)
+    st.image("здание общежития.jpg")
 
 with col3:
     components.html("""
@@ -61,6 +63,7 @@ with col3:
             </button>
         </a>
     """)
+    st.image("здание_общежития_в69.jpg")
 
 with col4:
     components.html("""
@@ -76,15 +79,6 @@ with col4:
             </button>
         </a>
     """)
-
-col5, col6, col7, col8 = st.columns([1, 1, 1, 1])
-with col5:
-    st.image("здание_общежития_ч27.jpg")
-with col6:
-    st.image("здание общежития.jpg")
-with col7:
-    st.image("здание_общежития_в69.jpg")
-with col8:
     st.image("здание_общежития_в38.jpg")
 st.divider()
 
