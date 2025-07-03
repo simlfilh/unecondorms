@@ -30,7 +30,7 @@ with col1:
                 Общежитие №2
             </button>
         </a>
-    """, width=50)
+    """, width=100)
 
 with col2:
     components.html("""
@@ -141,7 +141,7 @@ for question, answer in faq.items():
         st.write(answer)
 st.divider()
 
-col9, col10 = st.columns(2)
+col9, col10 = st.columns([1, 1])
 with col9:
     st.subheader("🔗 Полезные ресурсы")
     st.markdown("""
@@ -149,7 +149,6 @@ with col9:
         - [Портал для студентов](https://my.unecon.ru)  
         - [Группа ВКонтакте](https://vk.com/unecon)  
     """)
-    st.divider()
 with col10:
     st.subheader("Контакты для связи")
     st.markdown("""
