@@ -18,9 +18,10 @@ st.markdown("""
 st.divider()
 
 col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
+
 with col1:
     components.html("""
-        <div style="width: 100%;">
+        <div style="width: 100%; margin-bottom: 0;">
             <a href="https://chkalovski27.streamlit.app/" style="text-decoration: none; display: block;">
                 <button style="width: 100%;
                               color: white; 
@@ -30,17 +31,18 @@ with col1:
                               border-radius: 5px;
                               font-weight: bold;
                               cursor: pointer;
-                              box-sizing: border-box;">
+                              box-sizing: border-box;
+                              margin-bottom: 0;">
                     Общежитие №2
                 </button>
             </a>
         </div>
     """)
-    st.image("здание_общежития_ч27.jpg")
+    st.image("здание_общежития_ч27.jpg", use_column_width=True)
 
 with col2:
     components.html("""
-        <div style="width: 100%;">
+        <div style="width: 100%; margin-bottom: 0;">
             <a href="https://kosigina19k2.streamlit.app/" style="text-decoration: none; display: block;">
                 <button style="width: 100%;
                               color: white; 
@@ -50,17 +52,18 @@ with col2:
                               border-radius: 5px;
                               font-weight: bold;
                               cursor: pointer;
-                              box-sizing: border-box;">
+                              box-sizing: border-box;
+                              margin-bottom: 0;">
                     Общежитие №3
                 </button>
             </a>
         </div>
     """)
-    st.image("здание общежития.jpg")
+    st.image("здание общежития.jpg", use_column_width=True)
 
 with col3:
     components.html("""
-        <div style="width: 100%;">
+        <div style="width: 100%; margin-bottom: 0;">
             <a href="https://voronezhskaya69.streamlit.app/" style="text-decoration: none; display: block;">
                 <button style="width: 100%;
                               color: white; 
@@ -70,17 +73,18 @@ with col3:
                               border-radius: 5px;
                               font-weight: bold;
                               cursor: pointer;
-                              box-sizing: border-box;">
+                              box-sizing: border-box;
+                              margin-bottom: 0;">
                     Общежитие №4
                 </button>
             </a>
         </div>
     """)
-    st.image("здание_общежития_в69.jpg")
+    st.image("здание_общежития_в69.jpg", use_column_width=True)
 
 with col4:
     components.html("""
-        <div style="width: 100%;">
+        <div style="width: 100%; margin-bottom: 0;">
             <a href="https://voronezhskaya38.streamlit.app/" style="text-decoration: none; display: block;">
                 <button style="width: 100%;
                               color: white; 
@@ -90,13 +94,14 @@ with col4:
                               border-radius: 5px;
                               font-weight: bold;
                               cursor: pointer;
-                              box-sizing: border-box;">
+                              box-sizing: border-box;
+                              margin-bottom: 0;">
                     Общежитие №7
                 </button>
             </a>
         </div>
     """)
-    st.image("здание_общежития_в38.jpg")
+    st.image("здание_общежития_в38.jpg", use_column_width=True)
 st.divider()
 
 st.subheader("❓ Часто задаваемые вопросы: заселение в общежитие")
