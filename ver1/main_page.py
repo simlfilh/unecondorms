@@ -31,7 +31,7 @@ with col1:
                 Общежитие №2
             </button>
         </a>
-    """)
+    """,  unsafe_allow_html=True)
     st.image("здание_общежития_ч27.jpg")
 with col2:
     components.html("""
