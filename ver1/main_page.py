@@ -20,62 +20,81 @@ st.divider()
 col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
 with col1:
     components.html("""
-        <a href="https://chkalovski27.streamlit.app/">
-            <button style="color: white; 
-                          background-color: #26B28C; 
-                          border: none; 
-                          padding: 10px 20px; 
-                          border-radius: 5px;
-                          font-weight: bold;
-                          cursor: pointer;">
-                Общежитие №2
-            </button>
-        </a>
+        <div style="width: 100%;">
+            <a href="https://chkalovski27.streamlit.app/" style="text-decoration: none; display: block;">
+                <button style="width: 100%;
+                              color: white; 
+                              background-color: #26B28C; 
+                              border: none; 
+                              padding: 10px 20px; 
+                              border-radius: 5px;
+                              font-weight: bold;
+                              cursor: pointer;
+                              box-sizing: border-box;">
+                    Общежитие №2
+                </button>
+            </a>
+        </div>
     """)
     st.image("здание_общежития_ч27.jpg")
+
 with col2:
     components.html("""
-        <a href="https://kosigina19k2.streamlit.app/">
-            <button style="color: white; 
-                          background-color: #26B28C; 
-                          border: none; 
-                          padding: 10px 20px; 
-                          border-radius: 5px;
-                          font-weight: bold;
-                          cursor: pointer;">
-                Общежитие №3
-            </button>
-        </a>
+        <div style="width: 100%;">
+            <a href="https://kosigina19k2.streamlit.app/" style="text-decoration: none; display: block;">
+                <button style="width: 100%;
+                              color: white; 
+                              background-color: #26B28C; 
+                              border: none; 
+                              padding: 10px 20px; 
+                              border-radius: 5px;
+                              font-weight: bold;
+                              cursor: pointer;
+                              box-sizing: border-box;">
+                    Общежитие №3
+                </button>
+            </a>
+        </div>
     """)
     st.image("здание общежития.jpg")
+
 with col3:
     components.html("""
-        <a href="https://voronezhskaya69.streamlit.app/">
-            <button style="color: white; 
-                          background-color: #26B28C; 
-                          border: none; 
-                          padding: 10px 20px; 
-                          border-radius: 5px;
-                          font-weight: bold;
-                          cursor: pointer;">
-                Общежитие №4
-            </button>
-        </a>
+        <div style="width: 100%;">
+            <a href="https://voronezhskaya69.streamlit.app/" style="text-decoration: none; display: block;">
+                <button style="width: 100%;
+                              color: white; 
+                              background-color: #26B28C; 
+                              border: none; 
+                              padding: 10px 20px; 
+                              border-radius: 5px;
+                              font-weight: bold;
+                              cursor: pointer;
+                              box-sizing: border-box;">
+                    Общежитие №4
+                </button>
+            </a>
+        </div>
     """)
     st.image("здание_общежития_в69.jpg")
+
 with col4:
     components.html("""
-            <a href="https://voronezhskaya38.streamlit.app/">
-                <button style="color: white; 
-                          background-color: #26B28C; 
-                          border: none; 
-                          padding: 10px 20px; 
-                          border-radius: 5px;
-                          font-weight: bold;
-                          cursor: pointer;">
-                Общежитие №7
-            </button>
-        </a>
+        <div style="width: 100%;">
+            <a href="https://voronezhskaya38.streamlit.app/" style="text-decoration: none; display: block;">
+                <button style="width: 100%;
+                              color: white; 
+                              background-color: #26B28C; 
+                              border: none; 
+                              padding: 10px 20px; 
+                              border-radius: 5px;
+                              font-weight: bold;
+                              cursor: pointer;
+                              box-sizing: border-box;">
+                    Общежитие №7
+                </button>
+            </a>
+        </div>
     """)
     st.image("здание_общежития_в38.jpg")
 st.divider()
