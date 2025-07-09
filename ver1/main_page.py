@@ -27,7 +27,7 @@ st.markdown("""
         padding-top: 0 !important;
     }
     button {
-        margin-bottom: 0 !important;
+        margin-bottom: 5 !important;
         display: block !important;
     }
     a {
