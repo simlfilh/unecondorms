@@ -54,19 +54,19 @@ def create_button(url, text):
     """
 
 with col1:
-    st.markdown(create_button("https://chkalovski27.streamlit.app/", "Общежитие №2"), unsafe_allow_html=True)
+    st.markdown(create_button("https://chkalovski27.streamlit.app/", "Общежитие №2 | Чкаловский 27"), unsafe_allow_html=True)
     st.image("здание_общежития_ч27.jpg", use_container_width=True)
 
 with col2:
-    st.markdown(create_button("https://kosigina19k2.streamlit.app/", "Общежитие №3"), unsafe_allow_html=True)
+    st.markdown(create_button("https://kosigina19k2.streamlit.app/", "Общежитие №3 | Косыгина 19к2"), unsafe_allow_html=True)
     st.image("здание общежития.jpg", use_container_width=True)
 
 with col3:
-    st.markdown(create_button("https://voronezhskaya69.streamlit.app/", "Общежитие №4"), unsafe_allow_html=True)
+    st.markdown(create_button("https://voronezhskaya69.streamlit.app/", "Общежитие №4 | Воронежская 69"), unsafe_allow_html=True)
     st.image("здание_общежития_в69.jpg", use_container_width=True)
 
 with col4:
-    st.markdown(create_button("https://voronezhskaya38.streamlit.app/", "Общежитие №7"), unsafe_allow_html=True)
+    st.markdown(create_button("https://voronezhskaya38.streamlit.app/", "Общежитие №7 | Воронежская 38"), unsafe_allow_html=True)
     st.image("здание_общежития_в38.jpg", use_container_width=True)
 st.divider()
 
