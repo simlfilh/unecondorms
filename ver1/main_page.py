@@ -22,16 +22,12 @@ st.markdown("""
     div[data-testid="column"] {
         gap: 0 !important;
     }
+    .custom-button {
+        margin-bottom: 10px !important;  /* Отступ снизу кнопки */
+    }
     .stImage {
         margin-top: 0 !important;
         padding-top: 0 !important;
-    }
-    button {
-        margin-bottom: 5 !important;
-        display: block !important;
-    }
-    a {
-        text-decoration: none !important;
     }
 </style>
 """, unsafe_allow_html=True)
