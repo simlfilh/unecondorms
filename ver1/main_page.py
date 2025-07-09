@@ -18,6 +18,7 @@ st.markdown("""
 st.divider()
 
 col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
+col5, col6, col7, col8 = st.columns([1, 1, 1, 1])
 
 with col1:
     components.html("""
@@ -38,6 +39,7 @@ with col1:
             </a>
         </div>
     """)
+with col5:
     st.image("здание_общежития_ч27.jpg")
 
 with col2:
@@ -59,6 +61,7 @@ with col2:
             </a>
         </div>
     """)
+with col6:
     st.image("здание общежития.jpg")
 
 with col3:
@@ -80,6 +83,7 @@ with col3:
             </a>
         </div>
     """)
+with col7:
     st.image("здание_общежития_в69.jpg")
 
 with col4:
@@ -101,6 +105,7 @@ with col4:
             </a>
         </div>
     """)
+with col8:
     st.image("здание_общежития_в38.jpg")
 st.divider()
 
