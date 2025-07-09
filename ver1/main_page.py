@@ -26,6 +26,7 @@ with col1:
                               color: white; 
                               background-color: #26B28C; 
                               border: none; 
+                              padding: 10px 20px; 
                               border-radius: 5px;
                               font-weight: bold;
                               cursor: pointer;
