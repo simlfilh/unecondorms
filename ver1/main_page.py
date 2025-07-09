@@ -17,96 +17,94 @@ st.markdown("""
 """)
 st.divider()
 
+st.markdown("""
+<style>
+    div[data-testid="column"] {
+        gap: 0 !important;  /* Убирает ВСЕ промежутки в колонках */
+    }
+    .stImage {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    button {
+        margin-bottom: 0 !important;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
-col5, col6, col7, col8 = st.columns([1, 1, 1, 1])
 
 with col1:
-    components.html("""
-        <div style="width: 100%; margin-bottom: 0;">
-            <a href="https://chkalovski27.streamlit.app/" style="text-decoration: none; display: block;">
-                <button style="width: 100%;
-                              color: white; 
-                              background-color: #26B28C; 
-                              border: none; 
-                              padding: 10px 20px; 
-                              border-radius: 5px;
-                              font-weight: bold;
-                              cursor: pointer;
-                              box-sizing: border-box;
-                              margin-bottom: 0;">
-                    Общежитие №2
-                </button>
-            </a>
-        </div>
-    """)
-with col5:
-    st.image("здание_общежития_ч27.jpg")
+    st.markdown("""
+    <a href="https://chkalovski27.streamlit.app/">
+        <button style="
+            width: 100%;
+            color: white; 
+            background-color: #26B28C; 
+            border: none; 
+            padding: 10px 20px; 
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 0 !important;
+        ">Общежитие №2</button>
+    </a>
+    """, unsafe_allow_html=True)
+    st.image("здание_общежития_ч27.jpg", use_column_width=True)
 
 with col2:
-    components.html("""
-        <div style="width: 100%; margin-bottom: 0;">
-            <a href="https://kosigina19k2.streamlit.app/" style="text-decoration: none; display: block;">
-                <button style="width: 100%;
-                              color: white; 
-                              background-color: #26B28C; 
-                              border: none; 
-                              padding: 10px 20px; 
-                              border-radius: 5px;
-                              font-weight: bold;
-                              cursor: pointer;
-                              box-sizing: border-box;
-                              margin-bottom: 0;">
-                    Общежитие №3
-                </button>
-            </a>
-        </div>
-    """)
-with col6:
-    st.image("здание общежития.jpg")
+    st.markdown("""
+    <a href="https://kosigina19k2.streamlit.app/">
+        <button style="
+            width: 100%;
+            color: white; 
+            background-color: #26B28C; 
+            border: none; 
+            padding: 10px 20px; 
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 0 !important;
+        ">Общежитие №3</button>
+    </a>
+    """, unsafe_allow_html=True)
+    st.image("здание общежития.jpg", use_column_width=True)
 
 with col3:
-    components.html("""
-        <div style="width: 100%; margin-bottom: 0;">
-            <a href="https://voronezhskaya69.streamlit.app/" style="text-decoration: none; display: block;">
-                <button style="width: 100%;
-                              color: white; 
-                              background-color: #26B28C; 
-                              border: none; 
-                              padding: 10px 20px; 
-                              border-radius: 5px;
-                              font-weight: bold;
-                              cursor: pointer;
-                              box-sizing: border-box;
-                              margin-bottom: 0;">
-                    Общежитие №4
-                </button>
-            </a>
-        </div>
-    """)
-with col7:
-    st.image("здание_общежития_в69.jpg")
+    st.markdown("""
+    <a href="https://voronezhskaya69.streamlit.app/">
+        <button style="
+            width: 100%;
+            color: white; 
+            background-color: #26B28C; 
+            border: none; 
+            padding: 10px 20px; 
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 0 !important;
+        ">Общежитие №4</button>
+    </a>
+    """, unsafe_allow_html=True)
+    st.image("здание_общежития_в69.jpg", use_column_width=True)
 
 with col4:
-    components.html("""
-        <div style="width: 100%; margin-bottom: 0;">
-            <a href="https://voronezhskaya38.streamlit.app/" style="text-decoration: none; display: block;">
-                <button style="width: 100%;
-                              color: white; 
-                              background-color: #26B28C; 
-                              border: none; 
-                              padding: 10px 20px; 
-                              border-radius: 5px;
-                              font-weight: bold;
-                              cursor: pointer;
-                              box-sizing: border-box;
-                              margin-bottom: 0;">
-                    Общежитие №7
-                </button>
-            </a>
-        </div>
-    """)
-with col8:
-    st.image("здание_общежития_в38.jpg")
+    st.markdown("""
+    <a href="https://voronezhskaya38.streamlit.app/">
+        <button style="
+            width: 100%;
+            color: white; 
+            background-color: #26B28C; 
+            border: none; 
+            padding: 10px 20px; 
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 0 !important;
+        ">Общежитие №7</button>
+    </a>
+    """, unsafe_allow_html=True)
+    st.image("здание_общежития_в38.jpg", use_column_width=True)
 st.divider()
 
 st.subheader("❓ Часто задаваемые вопросы: заселение в общежитие")
