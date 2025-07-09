@@ -17,7 +17,7 @@ st.markdown("""
 """)
 st.divider()
 
-col1, col2, col3, col4 = st.column([1, 1, 1, 1])
+col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
 with col1:
     components.html("""
         <a href="https://chkalovski27.streamlit.app/">
@@ -75,7 +75,7 @@ with col4:
             </a>
         """)
 
-col5, col6, col7, col8 = st.column([1, 1, 1, 1])
+col5, col6, col7, col8 = st.columns([1, 1, 1, 1])
 with col5:
     st.image("здание_общежития_ч27.jpg")
 with col6:
