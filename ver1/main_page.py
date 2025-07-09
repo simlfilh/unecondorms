@@ -20,7 +20,7 @@ st.divider()
 st.markdown("""
 <style>
     div[data-testid="column"] {
-        gap: 0 !important;  /* Убирает ВСЕ промежутки в колонках */
+        gap: 0 !important;
     }
     .stImage {
         margin-top: 0 !important;
@@ -28,6 +28,10 @@ st.markdown("""
     }
     button {
         margin-bottom: 0 !important;
+        display: block !important;
+    }
+    a {
+        text-decoration: none !important;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -42,15 +46,14 @@ with col1:
             color: white; 
             background-color: #26B28C; 
             border: none; 
-            padding: 10px 20px; 
+            padding: 10px 0; 
             border-radius: 5px;
             font-weight: bold;
             cursor: pointer;
-            margin-bottom: 0 !important;
         ">Общежитие №2</button>
     </a>
     """, unsafe_allow_html=True)
-    st.image("здание_общежития_ч27.jpg", use_column_width=True)
+    st.image("здание_общежития_ч27.jpg", use_container_width=True)
 
 with col2:
     st.markdown("""
@@ -60,15 +63,14 @@ with col2:
             color: white; 
             background-color: #26B28C; 
             border: none; 
-            padding: 10px 20px; 
+            padding: 10px 0; 
             border-radius: 5px;
             font-weight: bold;
             cursor: pointer;
-            margin-bottom: 0 !important;
         ">Общежитие №3</button>
     </a>
     """, unsafe_allow_html=True)
-    st.image("здание общежития.jpg", use_column_width=True)
+    st.image("здание общежития.jpg", use_container_width=True)
 
 with col3:
     st.markdown("""
@@ -78,15 +80,14 @@ with col3:
             color: white; 
             background-color: #26B28C; 
             border: none; 
-            padding: 10px 20px; 
+            padding: 10px 0; 
             border-radius: 5px;
             font-weight: bold;
             cursor: pointer;
-            margin-bottom: 0 !important;
         ">Общежитие №4</button>
     </a>
     """, unsafe_allow_html=True)
-    st.image("здание_общежития_в69.jpg", use_column_width=True)
+    st.image("здание_общежития_в69.jpg", use_container_width=True)
 
 with col4:
     st.markdown("""
@@ -96,15 +97,14 @@ with col4:
             color: white; 
             background-color: #26B28C; 
             border: none; 
-            padding: 10px 20px; 
+            padding: 10px 0; 
             border-radius: 5px;
             font-weight: bold;
             cursor: pointer;
-            margin-bottom: 0 !important;
         ">Общежитие №7</button>
     </a>
     """, unsafe_allow_html=True)
-    st.image("здание_общежития_в38.jpg", use_column_width=True)
+    st.image("здание_общежития_в38.jpg", use_container_width=True)
 st.divider()
 
 st.subheader("❓ Часто задаваемые вопросы: заселение в общежитие")
