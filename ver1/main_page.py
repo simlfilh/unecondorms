@@ -125,7 +125,7 @@ faq = {
 }
 for question, answer in faq.items():
     with st.expander(question):
-        st.write(answer)
+        answer
 st.divider()
 
 col9, col10 = st.columns([1, 1])
