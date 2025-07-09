@@ -59,7 +59,7 @@ with col1:
 
 with col2:
     st.markdown(create_button("https://kosigina19k2.streamlit.app/", "Общежитие №3"), unsafe_allow_html=True)
-    st.image("здание_общежития.jpg", use_container_width=True)
+    st.image("здание общежития.jpg", use_container_width=True)
 
 with col3:
     st.markdown(create_button("https://voronezhskaya69.streamlit.app/", "Общежитие №4"), unsafe_allow_html=True)
