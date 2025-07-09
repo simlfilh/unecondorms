@@ -17,6 +17,7 @@ st.markdown("""
 """)
 st.divider()
 
+# Глобальный CSS для точного контроля отступов
 st.markdown("""
 <style>
     div[data-testid="column"] {
@@ -34,72 +35,38 @@ st.markdown("""
 
 col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
 
+def create_button(url, text):
+    return f"""
+    <div class="custom-button">
+        <a href="{url}" style="text-decoration: none;">
+            <button style="
+                width: 100%;
+                color: white;
+                background-color: #26B28C;
+                border: none;
+                padding: 10px 0;
+                border-radius: 5px;
+                font-weight: bold;
+                cursor: pointer;
+            ">{text}</button>
+        </a>
+    </div>
+    """
+
 with col1:
-    st.markdown("""
-    <a href="https://chkalovski27.streamlit.app/">
-        <button style="
-            width: 100%;
-            color: white; 
-            background-color: #26B28C; 
-            border: none; 
-            padding: 10px 0; 
-            border-radius: 5px;
-            font-weight: bold;
-            cursor: pointer;
-        ">Общежитие №2</button>
-    </a>
-    """, unsafe_allow_html=True)
+    st.markdown(create_button("https://chkalovski27.streamlit.app/", "Общежитие №2"), unsafe_allow_html=True)
     st.image("здание_общежития_ч27.jpg", use_container_width=True)
 
 with col2:
-    st.markdown("""
-    <a href="https://kosigina19k2.streamlit.app/">
-        <button style="
-            width: 100%;
-            color: white; 
-            background-color: #26B28C; 
-            border: none; 
-            padding: 10px 0; 
-            border-radius: 5px;
-            font-weight: bold;
-            cursor: pointer;
-        ">Общежитие №3</button>
-    </a>
-    """, unsafe_allow_html=True)
-    st.image("здание общежития.jpg", use_container_width=True)
+    st.markdown(create_button("https://kosigina19k2.streamlit.app/", "Общежитие №3"), unsafe_allow_html=True)
+    st.image("здание_общежития.jpg", use_container_width=True)
 
 with col3:
-    st.markdown("""
-    <a href="https://voronezhskaya69.streamlit.app/">
-        <button style="
-            width: 100%;
-            color: white; 
-            background-color: #26B28C; 
-            border: none; 
-            padding: 10px 0; 
-            border-radius: 5px;
-            font-weight: bold;
-            cursor: pointer;
-        ">Общежитие №4</button>
-    </a>
-    """, unsafe_allow_html=True)
+    st.markdown(create_button("https://voronezhskaya69.streamlit.app/", "Общежитие №4"), unsafe_allow_html=True)
     st.image("здание_общежития_в69.jpg", use_container_width=True)
 
 with col4:
-    st.markdown("""
-    <a href="https://voronezhskaya38.streamlit.app/">
-        <button style="
-            width: 100%;
-            color: white; 
-            background-color: #26B28C; 
-            border: none; 
-            padding: 10px 0; 
-            border-radius: 5px;
-            font-weight: bold;
-            cursor: pointer;
-        ">Общежитие №7</button>
-    </a>
-    """, unsafe_allow_html=True)
+    st.markdown(create_button("https://voronezhskaya38.streamlit.app/", "Общежитие №7"), unsafe_allow_html=True)
     st.image("здание_общежития_в38.jpg", use_container_width=True)
 st.divider()
 
