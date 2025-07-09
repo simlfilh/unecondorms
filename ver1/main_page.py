@@ -33,7 +33,6 @@ with col1:
         </a>
     """)
     st.image("здание_общежития_ч27.jpg")
-with col6:
 with col2:
     components.html("""
         <a href="https://kosigina19k2.streamlit.app/">
