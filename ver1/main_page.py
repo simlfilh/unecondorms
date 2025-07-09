@@ -50,13 +50,13 @@ with col3:
     components.html("""
         <a href="https://voronezhskaya69.streamlit.app/">
             <button style="color: white; 
-                          background-color: #5C21C7;  
+                          background-color: #26B28C; 
                           border: none; 
                           padding: 10px 20px; 
                           border-radius: 5px;
                           font-weight: bold;
-                          cursor: pointer;
-                Общежитие №4
+                          cursor: pointer;">
+                Общежитие №3
             </button>
         </a>
     """)
@@ -64,16 +64,16 @@ with col4:
     components.html("""
             <a href="https://voronezhskaya38.streamlit.app/">
                 <button style="color: white; 
-                              background-color: #5C21C7;  
-                              border: none; 
-                              padding: 10px 20px; 
-                              border-radius: 5px;
-                              font-weight: bold;
-                              cursor: pointer;
-                    Общежитие №7
-                </button>
-            </a>
-        """)
+                          background-color: #26B28C; 
+                          border: none; 
+                          padding: 10px 20px; 
+                          border-radius: 5px;
+                          font-weight: bold;
+                          cursor: pointer;">
+                Общежитие №3
+            </button>
+        </a>
+    """)
 
 col5, col6, col7, col8 = st.columns([1, 1, 1, 1])
 with col5:
