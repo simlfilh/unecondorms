@@ -56,7 +56,7 @@ with col3:
                           border-radius: 5px;
                           font-weight: bold;
                           cursor: pointer;">
-                Общежитие №3
+                Общежитие №4
             </button>
         </a>
     """)
@@ -70,7 +70,7 @@ with col4:
                           border-radius: 5px;
                           font-weight: bold;
                           cursor: pointer;">
-                Общежитие №3
+                Общежитие №7
             </button>
         </a>
     """)
