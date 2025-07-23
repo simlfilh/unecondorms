@@ -163,19 +163,21 @@ with col9:
     <style>
         .custom-links a {
             color: white !important;
-            text-decoration: none; 
+            text-decoration: none;
         }
         .custom-links a:hover {
-            color: #ccc !important;  
-            text-decoration: underline; 
+            color: #ccc !important;
+            text-decoration: underline;
         }
     </style>
     <div class="custom-links">
-        - [Официальный сайт СПбГЭУ](https://unecon.ru)  
-        - [Портал для студентов](https://student.unecon.ru)  
-        - [Группа ВКонтакте](https://vk.com/unecon)  
+        <ul>
+            <li><a href="https://unecon.ru">Официальный сайт СПбГЭУ</a></li>
+            <li><a href="https://student.unecon.ru">Портал для студентов</a></li>
+            <li><a href="https://vk.com/unecon">Группа ВКонтакте</a></li>
+        </ul>
     </div>
-        """, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 with col10:
     st.subheader("Контакты для связи")
     st.markdown("""
