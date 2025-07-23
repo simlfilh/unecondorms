@@ -160,10 +160,22 @@ col9, col10 = st.columns([1, 1])
 with col9:
     st.subheader("🔗 Полезные ресурсы")
     st.markdown("""
+    <style>
+        .custom-links a {
+            color: white !important;
+            text-decoration: none; 
+        }
+        .custom-links a:hover {
+            color: #ccc !important;  
+            text-decoration: underline; 
+        }
+    </style>
+    <div class="custom-links">
         - [Официальный сайт СПбГЭУ](https://unecon.ru)  
         - [Портал для студентов](https://student.unecon.ru)  
         - [Группа ВКонтакте](https://vk.com/unecon)  
-    """)
+    </div>
+        """, unsafe_allow_html=True)
 with col10:
     st.subheader("Контакты для связи")
     st.markdown("""
