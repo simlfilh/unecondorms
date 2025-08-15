@@ -171,17 +171,7 @@ col9, col10 = st.columns([1, 1])
 with col9:
     st.subheader("🔗 Полезные ресурсы")
     st.markdown("""
-    <style>
-        .custom-links a {
-            color: white !important;
-            text-decoration: none;
-        }
-        .custom-links a:hover {
-            color: #ccc !important;
-            text-decoration: underline;
-        }
-    </style>
-    <div class="custom-links">
+    <div>
         <ul>
             <li><a href="https://unecon.ru">Официальный сайт СПбГЭУ</a></li>
             <li><a href="https://student.unecon.ru">Портал для студентов</a></li>
@@ -192,17 +182,7 @@ with col9:
 with col10:
     st.subheader("Контакты для связи")
     st.markdown("""
-    <style>
-        .contact-links a {
-            color: white !important;
-            text-decoration: none;
-        }
-        .contact-links a:hover {
-            color: #ccc !important;
-            text-decoration: underline;
-        }
-    </style>
-    <div class="contact-links">
+    <div>
         <p><strong>Жилищно-бытовое управление:</strong></p>
         <p>📍 Адрес: наб. канала Грибоедова, д. 30-32, лестница № 4</p>
         <p>📞 Справки по телефону: <a href="tel:+78124589730,4291,4294">+7 (812) 458-97-30, доб. 4291, 4294</a></p>
@@ -219,5 +199,6 @@ with col10:
         ПТ: 13:00 — 15:00</p>
     </div>
 """, unsafe_allow_html=True)
+
 
 
