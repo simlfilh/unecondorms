@@ -5,12 +5,22 @@ st.set_page_config(
     page_title="Общежития СПбГЭУ",
     page_icon="🏠",
     layout="wide",
-    initial_sidebar_state="expanded",
-    theme="dark"
+    initial_sidebar_state="expanded"
 )
 
 st.title("🏠 | Общежития для заселения - СПбГЭУ")
 st.divider()
+
+st.markdown(
+    """
+    <style>
+    .stApp {
+        min-height: 100vh;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 st.markdown("""
     Добро пожаловать на портал общежитий Санкт-Петербургского государственного экономического университета.  
