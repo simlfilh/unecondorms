@@ -177,7 +177,16 @@ with col9:
             <li><a href="https://vk.com/unecon">Группа ВКонтакте</a></li>
         </ul>
     </div>
-""", unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
+
+    st.subheader("🔧 Техническая поддержка")
+    st.markdown("""
+    <div>
+        <p>📞 <a href="tel:+78124589730,4299">+7 (812) 458-97-30, доб. 4299</a></p>
+        <p>📩 <a href="mailto:savchenko.va@unecon.ru">savchenko.va@unecon.ru</a></p>
+    </div>
+    """, unsafe_allow_html=True)
+    
 with col10:
     st.subheader("Контакты для связи")
     st.markdown("""
@@ -197,7 +206,7 @@ with col10:
         <br>
         ПТ: 13:00 — 15:00</p>
     </div>
-""", unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
 # убрать    st.markdown(create_button("https://appointmentzhbuforstudents.streamlit.app/", "Записаться на прием"), unsafe_allow_html=True)
     
 
