@@ -191,15 +191,15 @@ with col10:
         <p>📞 Справки по телефону: <a href="tel:+78124589730,4291,4294">+7 (812) 458-97-30, доб. 4277, 4291, 4294, 4299</a></p>
         <p>📩 <a href="mailto:dom@unecon.ru">dom@unecon.ru</a></p>
         <p><strong>Часы приема:</strong></p>
-        <p>ПН: 14:00 — 16:30
+        <p>ПН: 14:00 — 17:00
         <br>
-        ВТ: 14:00 — 16:30
+        ВТ: 14:00 — 17:00
         <br>
         СР: приема нет
         <br>
-        ЧТ: 14:00 — 16:30
+        ЧТ: 14:00 — 17:00
         <br>
-        ПТ: 13:00 — 15:00</p>
+        ПТ: 14:00 — 16:45</p>
     </div>
     """, unsafe_allow_html=True)
     st.markdown(create_button("https://appointmentzhbuforstudents.streamlit.app/", "Записаться на прием"), unsafe_allow_html=True)
